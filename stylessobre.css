@@ -26,9 +26,14 @@ nav a:hover {
 }
 
 header {
-    background-color: #17a2b8; 
+    background-color: #FEF0ED;
     padding: 10px 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.titulo{
+    color: #FD8399;
+    text-align: center;
 }
 
 .container {
