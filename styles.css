@@ -41,26 +41,20 @@ header {
 .titulo{
     color: #FD8399;
     text-align: center;
+    /* font-family: mv boli; */
 }
 
 .container {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     height: 180px;
-}
-
-.teste{
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    max-width: 1200px;
 }
-
 
 table {
     border-collapse: collapse;
@@ -96,4 +90,51 @@ td {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.agendar-button:hover {
+    background-color: #FF3578; 
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.popup.show {
+    display: block;
+}
+
+footer {
+    background-color: #333; 
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.escrita{
+    color: #FD8399;
+    margin-right: 22px;
+    font-family: mv boli;
+    font-weight: 700;
+    /* font-size: 72px; */
+    margin-bottom: 0;
 }

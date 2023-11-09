@@ -13,26 +13,26 @@ body {
     width: 100%;
     margin: 0 auto;
     margin-top: 100px;
+    border: 1px solid #ccc; 
 }
 
-
 .container-header {
-    background-color:#FEF0ED;
-    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    height: 180px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.teste{
+/* .teste{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    max-width: 1200px;
-}
+} */
 
 nav ul {
     list-style-type: none;
@@ -59,6 +59,7 @@ header {
     background-color: #FEF0ED; 
     padding: 10px 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
 }
 
 .titulo{
@@ -97,7 +98,7 @@ textarea {
 }
 
 input[type="submit"] {
-    background-color: #17a2b8;
+    background-color: #FD8399;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -107,11 +108,11 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #FF5733;
+    background-color: #FF3578;
 }
 
 input[type="reset"] {
-    background-color: #17a2b8;
+    background-color: #FD8399;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -121,7 +122,7 @@ input[type="reset"] {
 }
 
 input[type="reset"]:hover {
-    background-color: #FF5733;
+    background-color: #FF3578;
 }
 
 .form-group input[type="submit"],
@@ -158,6 +159,7 @@ footer {
     color: #FFF;
     padding: 10px;
     text-align: center;
+    margin-top: 100px;
 }
 
 .container-footer {

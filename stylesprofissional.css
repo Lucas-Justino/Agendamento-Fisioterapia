@@ -37,20 +37,14 @@ header {
 }
 
 .container {
-    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-}
-
-.teste{
-    display: flex;
+    height: 180px;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    max-width: 1200px;
 }
 
 .content{
@@ -58,6 +52,17 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+
+.borda{
+    text-align: center;
+    margin: 50px auto;
+    max-width: 800px;
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
 }
 
 .profissional {
@@ -95,4 +100,21 @@ header {
 
 .profissional.inverted .info {
     margin-right: 20px; /* Adicionei uma margem à direita da descrição invertida */
+}
+
+footer {
+    background-color: #333; 
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }

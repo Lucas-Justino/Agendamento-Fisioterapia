@@ -37,24 +37,49 @@ header {
 }
 
 .container {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 180px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 800px;
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+}
+
+
+h1{
+    color: #FD8399;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+footer {
+    background-color: #333; 
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container-footer {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-}
-
-.teste{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    max-width: 1200px;
-}
-
-section {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 800px; /* Adicionei uma largura máxima para melhor legibilidade em telas grandes */
 }
