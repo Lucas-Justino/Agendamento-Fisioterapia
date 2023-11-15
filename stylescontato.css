@@ -65,6 +65,25 @@ header {
 
 }
 
+.agendar-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FD8399;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.agendar-button:hover {
+    background-color: #FF3578; 
+}
+
+.login{
+    text-decoration: none;
+    margin-left: 100px;
+}
+
 .titulo{
     color: #FD8399;
     text-align: center;
